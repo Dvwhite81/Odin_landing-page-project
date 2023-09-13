@@ -34,7 +34,7 @@ body {
 
 .header li {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 2vw;
     list-style-type: none;
     padding: 5px;
 }
@@ -43,21 +43,27 @@ a {
     text-decoration: none;
 }
 
-/* Main section top */
+/* Main sections */
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main section - top */
 .hero-main {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 3.5vw;
     font-weight: 800;
     margin: 0;
 }
 
 .hero-secondary {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 2vw;
 }
 
 p.hero-secondary {
-    padding-right: 4rem;
+    padding-right: 2rem;
 }
 
 .blue {
@@ -72,19 +78,41 @@ button {
     padding: 5px 10px;
 }
 
-.main-container {
-    display: flex;
-    height: 100%;
-}
-
-.one,
-.two,
-.three {
-    height: 20%;
-}
-
 .main-img {
-    height: auto;
-    padding: 50px;
-    width: 60%;
+    padding-right: 2rem;
+    width: 80%;
+}
+
+/* Main section - middle */
+.two {
+    text-align: center;
+}
+
+.info {
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.images {
+    height: 5rem;
+    object-fit: contain;
+    width: 25%;
+}
+
+.images img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.image-subtext {
+    color: gray;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0 1rem;
 }
