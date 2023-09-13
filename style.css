@@ -49,6 +49,10 @@ a {
     flex-direction: column;
 }
 
+.one, .two {
+    padding-bottom: 5rem;
+}
+
 /* Main section - top */
 .hero-main {
     color: #F9FAF8;
@@ -85,7 +89,9 @@ button {
 
 /* Main section - middle */
 .two {
+margin: 0 auto;
     text-align: center;
+width: 80%;
 }
 
 .info {
@@ -96,6 +102,7 @@ button {
 .images-container {
     display: flex;
     flex-direction: row;
+    margin-bottom: 4rem;
 }
 
 .images {
@@ -115,4 +122,34 @@ button {
     font-weight: lighter;
     margin: 0;
     padding: 0 1rem;
+}
+
+/* Main section - middle */
+.three {
+    background-color: #E5E7EB;
+    margin: auto;
+    padding: 3rem 0;
+    width: 100%;
+}
+
+#quote-container {
+    margin: auto;
+    width: 60%;
+}
+
+.quote-text,
+.quote-author {
+    font-size: 2.5vw;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    display: flex;
+    font-weight: 800;
+    justify-content: flex-end;
 }
